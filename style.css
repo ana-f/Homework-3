@@ -95,9 +95,12 @@ p {
 }
 
 @media (max-width: 576px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
   }
 
   h3 {
