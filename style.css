@@ -93,3 +93,27 @@ p {
 .img-shadow {
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 576px) {
+  h1,
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .img-app {
+    display: none;
+  }
+
+  .style-center {
+    text-align: center;
+  }
+}
